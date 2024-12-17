@@ -1,3 +1,8 @@
+.lead {
+  max-width: 984px;
+  width: 100%;
+}
+
 .lead__title {
   font-family: "Inter-Black";
   font-size: 96px;
@@ -23,6 +28,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    width: 100%;
+  }
+
   .lead__title {
     font-size: 75px;
     line-height: 79px;
@@ -42,6 +52,11 @@
 }
 
 @media screen and (max-width: 320px) {
+  .header__lead {
+    max-width: 320px;
+    width: 100%;
+  }
+
   .lead__title {
     font-size: 40px;
     line-height: 44px;

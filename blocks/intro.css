@@ -54,7 +54,7 @@
 
   .intro__text {
     max-width: 100%;
-    padding-bottom: -8px;
+    padding-bottom: 0;
   }
 
   .intro__text-author {
