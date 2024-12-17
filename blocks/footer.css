@@ -1,0 +1,26 @@
+.footer {
+  margin: auto;
+  padding-top: 92px;
+  max-width: 194px;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-top: 64px;
+  }
+
+  .copyright {
+    line-height: 14px;
+  }
+}
