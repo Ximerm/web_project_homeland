@@ -15,30 +15,6 @@
   width: 100%;
 }
 
-.lead__title {
-  font-family: "Inter-Black";
-  font-size: 96px;
-  line-height: 100px;
-  max-width: 73%;
-  margin: auto;
-  text-align: center;
-  padding-top: 91px;
-}
-
-.lead__subtitle {
-  font-size: 30px;
-  line-height: 36px;
-  max-width: 73%;
-  margin: auto;
-  text-align: center;
-  padding-top: 32px;
-}
-
-.lead__image {
-  padding-top: 64px;
-  width: 100%;
-}
-
 @media screen and (max-width: 768px) {
   .header__logo {
     max-width: 254px;
@@ -47,23 +23,6 @@
 
   .header__lead {
     max-width: 768px;
-    width: 100%;
-  }
-
-  .lead__title {
-    font-size: 75px;
-    line-height: 79px;
-    max-width: 69%;
-    padding-top: 90px;
-  }
-
-  .lead__subtitle {
-    max-width: 93.75%;
-    padding-top: 25px;
-  }
-
-  .lead__image {
-    padding-top: 30px;
     width: 100%;
   }
 }
@@ -76,25 +35,6 @@
 
   .header__lead {
     max-width: 320px;
-    width: 100%;
-  }
-
-  .lead__title {
-    font-size: 40px;
-    line-height: 44px;
-    max-width: 69%;
-    padding-top: 50px;
-  }
-
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    max-width: 93.75%;
-    padding-top: 16px;
-  }
-
-  .lead__image {
-    padding-top: 40px;
     width: 100%;
   }
 }
