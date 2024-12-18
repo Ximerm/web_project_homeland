@@ -9,5 +9,5 @@ HTML5 semántico
 Metodología BEM
 Diseño responsivo
 
-Link GitHub:
-https://github.com/Ximerm/web_project_homeland
+Link:
+https://ximerm.github.io/web_project_homeland/
