@@ -1,5 +1,5 @@
 .lead {
-  max-width: 984px;
+  max-width: 76.875%;
   width: 100%;
 }
 
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 768px;
+    max-width: 100%;
     width: 100%;
   }
 
@@ -53,21 +53,21 @@
 
 @media screen and (max-width: 320px) {
   .header__lead {
-    max-width: 320px;
+    max-width: 100%;
     width: 100%;
   }
 
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-    max-width: 69%;
+    max-width: 71.25%;
     padding-top: 50px;
   }
 
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    max-width: 93.75%;
+    max-width: 90%;
     padding-top: 16px;
   }
 
