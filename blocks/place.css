@@ -1,10 +1,10 @@
-.places {
+.place {
   max-width: 77.11%;
   margin: 0 auto;
   padding-top: 12px;
 }
 
-.places__place {
+.place__city {
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: 1fr 460px auto;
@@ -100,12 +100,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places {
+  .place {
     max-width: 93.75%;
     padding: 16px 24px 0;
   }
 
-  .places__place {
+  .place__city {
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr 340px auto;
     grid-gap: 48px 28px;
@@ -128,12 +128,12 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places {
+  .place {
     max-width: 100%;
     padding: 0;
   }
 
-  .places__place {
+  .place__city {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
